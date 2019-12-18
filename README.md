@@ -28,4 +28,4 @@
 
 #### UML
 
-<!-- ![ UML](/assets/lab-18-uml.jpg) -->
+![ UML](/assets/lab-18-uml.jpg)
