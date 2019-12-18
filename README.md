@@ -6,7 +6,8 @@
 
 ### Links and Resources
 
-- [Travis](ttps://w2jyq.csb.app/)
+- [Travis](https://www.travis-ci.com/nadili-401-advanced-javascript/lab-19)
+- [PR](https://github.com/nadili-401-advanced-javascript/lab-19/pull/1)
 - [AWS S3](https://)
 - [Amplify](https://)
 - [Netlify](https://)
