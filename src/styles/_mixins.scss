@@ -1,8 +1,4 @@
-@mixin border-radius($size) {
-    -webkit-border-radius: $size;
-    -moz-border-radius: $size;
-    border-radius: $size;
-}
+@import 'variables';
 
 @mixin format-box() {
     padding: $spacing;
@@ -11,5 +7,12 @@
     text-align: center;
 }
 
-// highlight(): turns text bold and colors it to be $theme-color
-// padContainer($pad, $mar): adds all-around padding and margins based on the passed in parameters of $pad and $mar
+@mixin highlight(){
+    text-decoration: double;
+    color: $theme-color;
+}
+
+@mixin padContainer($pad, $mar){
+    padding: $pad;
+    margin: $mar;
+}

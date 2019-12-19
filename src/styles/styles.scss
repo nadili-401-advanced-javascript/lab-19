@@ -2,25 +2,36 @@
 @import 'mixins';
 
 
-h1,
-h2 {
-    color: $theme-color;
+body {
+    background-color: $background-color;
 }
 
-.bordered-box {
-    font-style: italic;
-    h2 {
-        color: $theme-color;
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        span {
-            color: $highlight-color;
-        }
-    }
-    button {
-        color: $theme-color;
+    h1 {
+        color: $h1-color;
+        text-align: center;
     }
 
-    border: 2px solid $theme-color;
-    @include border-radius(6px);
-    @include format-box();
+    input  {
+        @include padContainer(5px, 5px);
+   
+    }
 }
+
+.converter .converter-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     @include padContainer(15px, 0px);
+     color: $theme-color;
+
+}
+
+
+        .x-label, .y-label{
+        color: $font;     
+    }

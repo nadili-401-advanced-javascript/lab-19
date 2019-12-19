@@ -38,11 +38,11 @@ class Converter extends React.Component {
         let xLabel = this.props.xLabel ? this.props.xLabel : '1';
         let yLabel = this.props.yLabel || '1';
         return (
+           
             <div className='converter'>
                 <h4 className='converter-heading'>
                     Converting {xLabel} to/from {yLabel}
                 </h4>
-
                 <label className='x-label'>
                     <input
                         type='number'
