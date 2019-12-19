@@ -1,2 +1,38 @@
 @import 'variables';
 @import 'mixins';
+
+
+body {
+    background-color: $background-color;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: $h1-color;
+        text-align: center;
+    }
+
+    input  {
+        @include padContainer(5px, 5px);
+   
+    }
+}
+
+.converter .converter-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     @include padContainer(15px, 0px);
+     color: $theme-color;
+}
+ 
+.x-label, .y-label{
+        color: $font;     
+    }
+.mid-label {
+        @include highlight();
+    }
