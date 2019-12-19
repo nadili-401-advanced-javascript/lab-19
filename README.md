@@ -8,9 +8,9 @@
 
 - [Travis](https://www.travis-ci.com/nadili-401-advanced-javascript/lab-19)
 - [PR](https://github.com/nadili-401-advanced-javascript/lab-19/pull/1)
-- [AWS S3](https://)
-- [Amplify](https://)
-- [Netlify](https://)
+- [AWS S3](http://nadili-lab19.s3-website-us-west-2.amazonaws.com/)
+- [AWS Amplify](https://dev.d39w35rg3r5mqz.amplifyapp.com/)
+- [Netlify](https://modest-mestorf-c446e5.netlify.com)
 
 ### Modules
 
