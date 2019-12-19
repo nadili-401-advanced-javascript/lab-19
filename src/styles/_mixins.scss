@@ -10,3 +10,6 @@
     margin-bottom: $spacing;
     text-align: center;
 }
+
+// highlight(): turns text bold and colors it to be $theme-color
+// padContainer($pad, $mar): adds all-around padding and margins based on the passed in parameters of $pad and $mar

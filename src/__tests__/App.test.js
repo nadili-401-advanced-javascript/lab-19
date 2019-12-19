@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import App from '../components/App';
 import Converter from '../components/Converter';
-import { configure, mount, render } from 'enzyme';
+import { configure, mount, render, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
@@ -31,14 +31,7 @@ describe('Converter component', () => {
     });
 });
 
-// 
-// it('adds one to Counter', () => {
-//     let component = mount(<App />);
-//     let input1 = component.find('label input#x');
-//     let input2 = component.find('label input#y');
-//     addBtn.simulate('click');
-//     expect(component.find('div.bordered-box h2').text()).toBe(
-//         'Your current count is: 1',
-//     );
-// });
+
+
+
 
